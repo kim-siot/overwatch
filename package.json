@@ -1,12 +1,26 @@
 {
-  "name": "overwatch",
+  "name": "overwatch_character",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.43.5"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kim-siot@github.com/kim-siot/overwatch.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kim-siot/overwatch/issues"
+  },
+  "homepage": "https://github.com/kim-siot/overwatch#readme"
 }
